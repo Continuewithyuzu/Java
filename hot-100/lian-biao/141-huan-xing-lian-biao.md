@@ -1,4 +1,4 @@
-# Page
+# 141、环形链表
 
 我的思路：
 
@@ -32,7 +32,9 @@ public class Solution {
 
 这样占用内存和空间很大
 
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
+***
 
 ## 快慢指针法
 
@@ -70,3 +72,28 @@ while循环思路：
 如果走到了最后，那就是slow指针没追上fast，说明没有环
 
 除此以外其他情况下都是有环
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## 另外的解法：Hash
+
+```java
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+        Set<ListNode> seen = new HashSet<ListNode>();
+        while (head != null) {
+            if (!seen.add(head)) {
+                return true;
+            }
+            head = head.next;
+        }
+        return false;
+    }
+}
+```
+
+使用哈希表来存储所有已经访问过的节点。每次我们到达一个节点，<mark style="color:blue;">**如果该节点已经存在于哈希表中，则说明该链表是环形链表**</mark>，否则就将该节点加入哈希表中。重复这一过程，直到我们遍历完整个链表即可
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>

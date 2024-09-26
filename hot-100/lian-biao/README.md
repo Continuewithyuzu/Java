@@ -90,7 +90,7 @@ public class Main {
 
 节点（Node）是由一个<mark style="color:blue;">**需要储存的对象及对下一个节点的引用**</mark>组成的。也就是说，节点拥有两个成员：<mark style="color:blue;">储存的对象、对下一个节点的引用</mark>。&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## 单向链表的实现
 
