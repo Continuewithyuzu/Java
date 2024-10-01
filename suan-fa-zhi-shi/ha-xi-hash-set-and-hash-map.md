@@ -28,7 +28,7 @@ hashCode()方法返回对象的哈希码值（哈希码），是一个int类型�
 
 ## Hash 碰撞（也叫Hash冲突） 这块晚点在学
 
-<figure><img src="../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -108,7 +108,7 @@ Java中的HashMap是一个实现Map接口的类，它提供了一个存储键值
     Collection<String> values = map.values();
     ```
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 这些操作涵盖了 `HashMap` 的大部分常见功能，方便用于存储和管理键值对数据。
 
@@ -196,7 +196,7 @@ public class HashMapExample {
 
 ### 2、基本操作
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>基本操作</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>基本操作</p></figcaption></figure>
 
 示例代码
 

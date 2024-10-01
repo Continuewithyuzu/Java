@@ -12,7 +12,7 @@ key：不知道
 
 ## **解题思路：**
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 Hash表中的示意图：
 

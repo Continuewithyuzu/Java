@@ -1,8 +1,16 @@
 # 链表
 
-## 话不多说，直入正题
+## LinkList类
+
+* 实现了List接口
+* LinkedList的底层使用了双向链表
+* LinkedList没有实现RandomAccess接口，因此LinkedList不支持随机访问
+* LinkedList的任意位置插入和删除元素时效率比较高，时间复杂度为O(1)
+* LinkedList比较适合任意位置插入的场景&#x20;
 
 &#x20;在Java中，Java标准库中提供了`LinkedList`类，它是基于链表的一个实现，并且已经封装好了许多常用的链表操作。你不需要手动定义基本的链表操作函数，Java 的 `LinkedList` 类已经包含了以下常用的方法：
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 * **添加元素**：
   * `add(E e)`: 在链表末尾添加元素。
@@ -24,13 +32,18 @@
 
 ### 示例代码:
 
+1、
+
 ```java
 import java.util.LinkedList;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<>();
-
+        List<String> list2 = new java.util.ArrayList<>();
+        // 使用ArrayList构造LinkedList
+        List<String> list3 = new LinkedList<>(list2);
         // 添加元素
         list.add("A");
         list.add("B");
@@ -48,8 +61,91 @@ public class Main {
         System.out.println("链表内容: " + list);
     }
 }
-
 ```
+
+2、
+
+```java
+public static void main(String[] args) {
+    LinkedList<Integer> list = new LinkedList<>();
+    list.add(1); // add(elem): 表示尾插
+    list.add(2);
+    list.add(3);
+    list.add(4);
+    list.add(5);
+    list.add(6);
+    list.add(7);
+    System.out.println(list.size());
+    System.out.println(list);
+    // 在起始位置插入0
+    list.add(0, 0); // add(index, elem): 在index位置插入元素elem
+    System.out.println(list);
+    list.remove(); // remove(): 删除第一个元素，内部调用的是removeFirst()
+    list.removeFirst(); // removeFirst(): 删除第一个元素
+    list.removeLast(); // removeLast(): 删除最后元素
+    list.remove(1); // remove(index): 删除index位置的元素
+    System.out.println(list);
+    // contains(elem): 检测elem元素是否存在，如果存在返回true，否则返回false
+    if(!list.contains(1)){
+        list.add(0, 1);
+}
+    list.add(1);
+    System.out.println(list);
+    System.out.println(list.indexOf(1)); /*indexOf(elem): 从前往
+    后找到第一个elem的位置*/
+    System.out.println(list.lastIndexOf(1)); /*lastIndexOf(elem): 从后
+    往前找第一个1的位置*/
+    int elem = list.get(0); // get(index): 获取指定位置元素
+    list.set(0, 100); // set(index, elem): 将index位置的元素设置为elem
+    System.out.println(list);
+    /*subList(from, to): 用list中[from, to)之间
+    的元素构造一个新的LinkedList返回*/
+    List<Integer> copy = list.subList(0, 3); 
+    System.out.println(list);
+    System.out.println(copy);
+    list.clear(); // 将list中元素清空
+    System.out.println(list.size());
+}
+```
+
+***
+
+## 遍历：
+
+3种遍历：for、foreach、迭代器
+
+```java
+public static void main(String[] args) {
+    LinkedList<Integer> list = new LinkedList<>();
+    list.add(1); // add(elem): 表示尾插
+    list.add(2);
+    list.add(3);
+    list.add(4);
+    list.add(5);
+    list.add(6);
+    list.add(7);
+    System.out.println(list.size());
+    // foreach遍历
+    for (int e:list) {
+        System.out.print(e + " ");
+    }
+    System.out.println();
+    // 使用迭代器遍历---正向遍历
+    ListIterator<Integer> it = list.listIterator();
+    while(it.hasNext()){
+    System.out.print(it.next()+ " ");
+    }
+    System.out.println();
+    // 使用反向迭代器---反向遍历
+    ListIterator<Integer> rit = list.listIterator(list.size());
+    while (rit.hasPrevious()){
+    System.out.print(rit.previous() +" ");
+    }
+    System.out.println();
+}
+```
+
+***
 
 ## 注意
 
@@ -90,7 +186,7 @@ public class Main {
 
 节点（Node）是由一个<mark style="color:blue;">**需要储存的对象及对下一个节点的引用**</mark>组成的。也就是说，节点拥有两个成员：<mark style="color:blue;">储存的对象、对下一个节点的引用</mark>。&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## 单向链表的实现
 
@@ -156,12 +252,8 @@ public class Main {
         return length;
     }
 
-    /**
-     * 在不知道头指针的情况下删除指定节点
-     * 
-     * @param n
-     * @return
-     */
+    
+ //在不知道头指针的情况下删除指定节点 
     public boolean deleteNode11(Node n) {
         if (n == null || n.next == null)
             return false;
@@ -287,9 +379,9 @@ public class LinekedList {
 * **减少空指针异常：** 虚拟头节点的存在确保了链表始终有一个节点，`head` 不会为 `null`，从而减少了空指针异常的可能性。
 * **代码更简洁：** 统一的处理方式使代码更为简洁，易于维护。
 
+***
 
-
-运用场景
+## 运用场景
 
 1、删除链表中的某个节点：
 
