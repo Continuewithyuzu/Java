@@ -21,4 +21,4 @@ coverY: 0
 
 ## How to fine me?
 
-Emali : `linhx163@gmali.com`
+Email : `linhx163@gmail.com`
