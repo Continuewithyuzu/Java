@@ -16,6 +16,7 @@
     * [19、删除链表的倒数第N个节点](hot-100/lian-biao/19-shan-chu-lian-biao-de-dao-shu-dinge-jie-dian.md)
     * [24. 两两交换链表中的节点](hot-100/lian-biao/24.-liang-liang-jiao-huan-lian-biao-zhong-de-jie-dian.md)
     * [25、K 个一组翻转链表（Hard）](hot-100/lian-biao/25k-ge-yi-zu-fan-zhuan-lian-biao-hard.md)
+    * [138、随机链表的复制](hot-100/lian-biao/138-sui-ji-lian-biao-de-fu-zhi.md)
   * [LinkedList VS ArrayList](hot-100/linkedlist-vs-arraylist.md)
   * [数组](hot-100/shu-zu.md)
 * [算法知识](suan-fa-zhi-shi/README.md)
@@ -29,3 +30,4 @@
     * [1148、文章浏览Ⅰ](gao-pin-sql/dql/1148-wen-zhang-liu-lan.md)
     * [1683、无效的推文](gao-pin-sql/dql/1683-wu-xiao-de-tui-wen.md)
     * [1378、使用唯一标识码替换员工ID](gao-pin-sql/dql/1378-shi-yong-wei-yi-biao-shi-ma-ti-huan-yuan-gong-id.md)
+    * [1068. 产品销售分析 Ⅰ](gao-pin-sql/dql/1068.-chan-pin-xiao-shou-fen-xi.md)

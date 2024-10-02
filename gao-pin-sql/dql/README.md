@@ -8,6 +8,21 @@
 
 ***
 
+## join 链接类型
+
+* INNER JOIN ：内连接, 可以只写JOIN ,<mark style="color:blue;">**只有连接的两个表中，都存在连接标准的数据才会保留下来，相当于两个表的交集**</mark>。如果前后连接的是同一个表，也叫自连接。
+* LEFT JOIN ：左连接，也叫左外连接。操作符左边表中符合WHERE子句中的所有记录将会被返回，操作右边表中如果没有符合ON后面连接的条件时，那么右边表指定选择的列将会返回NULL。
+* RIGHT JOIN：右连接，也叫右外连接。返回右边表所有符合WHERE语句的记录，左表中匹配不上的字段值用NULL来代替。
+* &#x20;FULL JOIN：全连接。返回所有表中符合WHERE语句条件的所有记录。
+* **USING 关键字**
+  * 当JOIN…ON后面作为合并条件的列名时，在两个表中相同时，可以使用USING\
+    (…,…)来简化，取代ON…AND…
+  * 如果列名不一样，是不能够使用USING 关键字来简化的，需要特别注意
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+
+***
+
 ## 外连接查询
 
 外连接查询分为<mark style="color:blue;">左外连接查询</mark>和<mark style="color:blue;">右外连接查询</mark>
@@ -41,6 +56,21 @@ on
 左外连接：是表1和表2的交集再并上表1的其他数据
 
 右外连接：是表1和表2的交集再并上表2的其他数据
+
+***
+
+## 内连接查询
+
+语法：
+
+```sql
+select <字段名>
+from <表a>
+JOIN <表b>
+ON a.<字段名> = b.<字段名>;
+```
+
+例子：[1068](1068.-chan-pin-xiao-shou-fen-xi.md)
 
 ***
 
