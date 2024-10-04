@@ -32,3 +32,4 @@
     * [1683、无效的推文](gao-pin-sql/dql/1683-wu-xiao-de-tui-wen.md)
     * [1378、使用唯一标识码替换员工ID](gao-pin-sql/dql/1378-shi-yong-wei-yi-biao-shi-ma-ti-huan-yuan-gong-id.md)
     * [1068. 产品销售分析 Ⅰ](gao-pin-sql/dql/1068.-chan-pin-xiao-shou-fen-xi.md)
+    * [1581、进店却未交易的顾客](gao-pin-sql/dql/1581-jin-dian-que-wei-jiao-yi-de-gu-ke.md)
