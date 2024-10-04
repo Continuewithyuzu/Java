@@ -19,7 +19,7 @@
     (…,…)来简化，取代ON…AND…
   * 如果列名不一样，是不能够使用USING 关键字来简化的，需要特别注意
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 

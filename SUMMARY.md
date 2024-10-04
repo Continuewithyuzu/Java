@@ -17,6 +17,7 @@
     * [24. 两两交换链表中的节点](hot-100/lian-biao/24.-liang-liang-jiao-huan-lian-biao-zhong-de-jie-dian.md)
     * [25、K 个一组翻转链表（Hard）](hot-100/lian-biao/25k-ge-yi-zu-fan-zhuan-lian-biao-hard.md)
     * [138、随机链表的复制](hot-100/lian-biao/138-sui-ji-lian-biao-de-fu-zhi.md)
+    * [148、排序链表](hot-100/lian-biao/148-pai-xu-lian-biao.md)
   * [LinkedList VS ArrayList](hot-100/linkedlist-vs-arraylist.md)
   * [数组](hot-100/shu-zu.md)
 * [算法知识](suan-fa-zhi-shi/README.md)
