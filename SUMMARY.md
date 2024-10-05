@@ -18,6 +18,7 @@
     * [25、K 个一组翻转链表（Hard）](hot-100/lian-biao/25k-ge-yi-zu-fan-zhuan-lian-biao-hard.md)
     * [138、随机链表的复制](hot-100/lian-biao/138-sui-ji-lian-biao-de-fu-zhi.md)
     * [148、排序链表](hot-100/lian-biao/148-pai-xu-lian-biao.md)
+    * [23、合并K个升序链表](hot-100/lian-biao/23-he-bingkge-sheng-xu-lian-biao.md)
   * [LinkedList VS ArrayList](hot-100/linkedlist-vs-arraylist.md)
   * [数组](hot-100/shu-zu.md)
 * [算法知识](suan-fa-zhi-shi/README.md)
@@ -33,3 +34,4 @@
     * [1378、使用唯一标识码替换员工ID](gao-pin-sql/dql/1378-shi-yong-wei-yi-biao-shi-ma-ti-huan-yuan-gong-id.md)
     * [1068. 产品销售分析 Ⅰ](gao-pin-sql/dql/1068.-chan-pin-xiao-shou-fen-xi.md)
     * [1581、进店却未交易的顾客](gao-pin-sql/dql/1581-jin-dian-que-wei-jiao-yi-de-gu-ke.md)
+    * [197、上升的温度](gao-pin-sql/dql/197-shang-sheng-de-wen-du.md)
