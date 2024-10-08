@@ -4,7 +4,7 @@ description: 属于是21的进阶版了
 
 # 23、合并K个升序链表
 
-思路一：
+## 思路一：
 
 遍历链表数组，用一个新的数组存储所有值，排序，然后转为新的链表
 
@@ -39,13 +39,15 @@ class Solution {
 }
 ```
 
-思路二：
+## 思路二：
 
-用一个新的链表，把所有的元素按顺序遍历取出。然后依照[148](148-pai-xu-lian-biao.md)排序链表，可以数组，可以分治
+~~用一个新的链表，把所有的元素按顺序遍历取出。然后依照~~[~~148~~](148-pai-xu-lian-biao.md)~~排序链表，可以数组，可以分治~~
 
 
 
-题解思路：\
+## 题解思路：
+
+\
 结合[21](21-he-bing-liang-ge-you-xu-lian-biao.md)、然后设置空链表ans，依次遍历lists，取出两两合并
 
 ```java
@@ -82,9 +84,11 @@ class Solution {
 
 感慨原来思路可以这样拓展，我的思路一实在有些复杂，然后也是超时了
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+***
 
-进阶：结合[21](21-he-bing-liang-ge-you-xu-lian-biao.md)、运用分治法的合并
+## 进阶：结合[21](21-he-bing-liang-ge-you-xu-lian-biao.md)、运用分治法的合并
 
 ```java
 class Solution {
@@ -125,3 +129,5 @@ class Solution {
     }
 }
 ```
+
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
