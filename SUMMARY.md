@@ -19,7 +19,7 @@
     * [138、随机链表的复制](hot-100/lian-biao/138-sui-ji-lian-biao-de-fu-zhi.md)
     * [148、排序链表](hot-100/lian-biao/148-pai-xu-lian-biao.md)
     * [23、合并K个升序链表](hot-100/lian-biao/23-he-bingkge-sheng-xu-lian-biao.md)
-    * [146、](hot-100/lian-biao/146.md)
+    * [146、LRU缓存](hot-100/lian-biao/146lru-huan-cun.md)
   * [LinkedList VS ArrayList](hot-100/linkedlist-vs-arraylist.md)
   * [数组](hot-100/shu-zu.md)
 * [算法知识](suan-fa-zhi-shi/README.md)

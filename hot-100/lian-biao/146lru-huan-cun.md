@@ -1,4 +1,4 @@
-# 146、
+# 146、LRU缓存
 
 思路：思路题目已经给出的差不多，除了去掉最久没使用的这一点还没想到怎么实现
 
@@ -31,6 +31,10 @@ class LRUCache {
 ***
 
 ## 关于Java有3种解法：
+
+## 思路：
+
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 ### 1、Hash表加双向链表，自己写一个双向链表
 
