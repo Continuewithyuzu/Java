@@ -36,3 +36,5 @@
     * [1068. 产品销售分析 Ⅰ](gao-pin-sql/dql/1068.-chan-pin-xiao-shou-fen-xi.md)
     * [1581、进店却未交易的顾客](gao-pin-sql/dql/1581-jin-dian-que-wei-jiao-yi-de-gu-ke.md)
     * [197、上升的温度](gao-pin-sql/dql/197-shang-sheng-de-wen-du.md)
+    * [1661、每台机器的进程平均运行时间](gao-pin-sql/dql/1661-mei-tai-ji-qi-de-jin-cheng-ping-jun-yun-xing-shi-jian.md)
+  * [聚合函数](gao-pin-sql/ju-he-han-shu.md)
