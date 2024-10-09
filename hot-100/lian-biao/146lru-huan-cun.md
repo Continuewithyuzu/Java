@@ -38,10 +38,10 @@ class LRUCache {
 
 ### 1、Hash表加双向链表，自己写一个双向链表
 
-代码：
+代码：双向链表相比普通链表就是多一个prev指针
 
 ```java
-class LRUCache {
+class LRUCache 
     private static class Node {
         int key, value;
         Node prev, next;
@@ -109,6 +109,8 @@ class LRUCache {
 }
 ```
 
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 2、LinkedHashMap，一个自带双向链表的类
@@ -149,6 +151,8 @@ class LRUCache {
 }
 ```
 
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 3、Java直接继承：一般不满足面试要求
@@ -173,3 +177,5 @@ class LRUCache extends LinkedHashMap<Integer, Integer> {
     }
 }
 ```
+
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
