@@ -119,6 +119,6 @@ select *from users limit 4,13;
 
 ## `case-when-then-else-end`语法
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 例题：[1661、](1661-mei-tai-ji-qi-de-jin-cheng-ping-jun-yun-xing-shi-jian.md)

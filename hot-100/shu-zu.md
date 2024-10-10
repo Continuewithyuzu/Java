@@ -97,3 +97,34 @@ while (p != null) {
 
 
 Java内存中是没有指针，看不到每个元素的地址情况，二维数组也不是连续分布的
+
+***
+
+## sort排序
+
+在Java 7及以后的版本中，`Arrays`类在排序小型数组时使用的是改进后的快速排序算法，而在排序大型数组时使用的是归并排序算法。
+
+### sort是升序排序，具体的用法有：
+
+```java
+Arrays.sort(array);
+Collections.sort(list);
+```
+
+局部排序：
+
+```java
+Arrays.sort(数组名,start,end);//注意左闭右开！！！[start,end)
+```
+
+### 如果要实现降序排序，需要用Collections类的reverse方法实现
+
+```java
+Collections.reverse(Arrays.asList(arr));
+```
+
+或：
+
+```java
+Arrays.sort(arr, Collections.reverseOrder());
+```

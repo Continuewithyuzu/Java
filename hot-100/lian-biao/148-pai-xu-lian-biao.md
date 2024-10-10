@@ -35,7 +35,7 @@ class Solution {
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption><p>整体的复杂度我感觉其实还是可以的</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>整体的复杂度我感觉其实还是可以的</p></figcaption></figure>
 
 ### 中间出现了几个bug：
 
@@ -99,4 +99,4 @@ class Solution {
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>ps：没我的快，但是思路值得学</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>ps：没我的快，但是思路值得学</p></figcaption></figure>
