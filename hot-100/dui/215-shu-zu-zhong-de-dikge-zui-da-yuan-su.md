@@ -13,4 +13,4 @@ class Solution {
 
 要注意的是sort是升序排序，所以要返回的下标是`nums.length - k`
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>

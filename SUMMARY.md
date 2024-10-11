@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Hot 100](README.md)
+* [About Me：Continuewithyuzu](README.md)
+* [Hot 100](<README (1).md>)
   * [哈希 Hash Set and Hash Map](hot-100/ha-xi-hash-set-and-hash-map/README.md)
     * [1、两数之和](hot-100/ha-xi-hash-set-and-hash-map/1-liang-shu-zhi-he.md)
     * [49、字母易位词分组](hot-100/ha-xi-hash-set-and-hash-map/49-zi-mu-yi-wei-ci-fen-zu.md)
@@ -21,10 +22,10 @@
     * [23、合并K个升序链表](hot-100/lian-biao/23-he-bingkge-sheng-xu-lian-biao.md)
     * [146、LRU缓存](hot-100/lian-biao/146lru-huan-cun.md)
   * [LinkedList VS ArrayList](hot-100/linkedlist-vs-arraylist.md)
-  * [数组](hot-100/shu-zu.md)
   * [堆](hot-100/dui/README.md)
     * [215、数组中的第K个最大元素](hot-100/dui/215-shu-zu-zhong-de-dikge-zui-da-yuan-su.md)
-    * [347、](hot-100/dui/347.md)
+    * [347、前K个高频元素](hot-100/dui/347-qiankge-gao-pin-yuan-su.md)
+  * [数组](hot-100/shu-zu.md)
 * [算法知识](suan-fa-zhi-shi/README.md)
   * [哈希 Hash Set and Hash Map](suan-fa-zhi-shi/ha-xi-hash-set-and-hash-map.md)
   * [字符串类](suan-fa-zhi-shi/zi-fu-chuan-lei.md)
@@ -40,4 +41,5 @@
     * [1581、进店却未交易的顾客](gao-pin-sql/dql/1581-jin-dian-que-wei-jiao-yi-de-gu-ke.md)
     * [197、上升的温度](gao-pin-sql/dql/197-shang-sheng-de-wen-du.md)
     * [1661、每台机器的进程平均运行时间](gao-pin-sql/dql/1661-mei-tai-ji-qi-de-jin-cheng-ping-jun-yun-xing-shi-jian.md)
+    * [577、员工奖金](gao-pin-sql/dql/577-yuan-gong-jiang-jin.md)
   * [聚合函数](gao-pin-sql/ju-he-han-shu.md)

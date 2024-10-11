@@ -10,7 +10,7 @@
 
 &#x20;在Java中，Java标准库中提供了`LinkedList`类，它是基于链表的一个实现，并且已经封装好了许多常用的链表操作。你不需要手动定义基本的链表操作函数，Java 的 `LinkedList` 类已经包含了以下常用的方法：
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **添加元素**：
   * `add(E e)`: 在链表末尾添加元素。

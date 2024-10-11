@@ -19,7 +19,7 @@
     (…,…)来简化，取代ON…AND…
   * 如果列名不一样，是不能够使用USING 关键字来简化的，需要特别注意
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -119,6 +119,6 @@ select *from users limit 4,13;
 
 ## `case-when-then-else-end`语法
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 例题：[1661、](1661-mei-tai-ji-qi-de-jin-cheng-ping-jun-yun-xing-shi-jian.md)

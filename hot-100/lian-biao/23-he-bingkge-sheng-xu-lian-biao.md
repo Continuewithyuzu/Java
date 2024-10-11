@@ -84,7 +84,7 @@ class Solution {
 
 感慨原来思路可以这样拓展，我的思路一实在有些复杂，然后也是超时了
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
