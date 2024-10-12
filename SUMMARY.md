@@ -25,6 +25,8 @@
   * [堆](hot-100/dui/README.md)
     * [215、数组中的第K个最大元素](hot-100/dui/215-shu-zu-zhong-de-dikge-zui-da-yuan-su.md)
     * [347、前K个高频元素](hot-100/dui/347-qiankge-gao-pin-yuan-su.md)
+  * [栈和队列](hot-100/zhan-he-dui-lie.md)
+  * [二叉树](hot-100/er-cha-shu.md)
   * [数组](hot-100/shu-zu.md)
 * [算法知识](suan-fa-zhi-shi/README.md)
   * [哈希 Hash Set and Hash Map](suan-fa-zhi-shi/ha-xi-hash-set-and-hash-map.md)
