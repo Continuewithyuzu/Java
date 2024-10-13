@@ -14,4 +14,4 @@ WHERE bonus<1000 or bonus = null
 
 犯了一个错误，判空写成了=null
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>

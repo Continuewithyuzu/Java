@@ -4,7 +4,7 @@
 
 主要的思路比较有意思，不是用了题目想让用的自连接而是通过一个比较巧妙的方法计算每个机器的时间和然后取平均值，具体的重点是`case-when-then-else-end`语法
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ```sql
 SELECT 
@@ -15,7 +15,7 @@ FROM activity
 GROUP BY machine_id
 ```
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -33,4 +33,4 @@ a2.activity_type ='end'
 group by machine_id;
 ```
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>

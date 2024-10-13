@@ -32,7 +32,7 @@ public class Solution {
 
 这样占用内存和空间很大
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -73,7 +73,7 @@ while循环思路：
 
 除此以外其他情况下都是有环
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -96,4 +96,4 @@ public class Solution {
 
 使用哈希表来存储所有已经访问过的节点。每次我们到达一个节点，<mark style="color:blue;">**如果该节点已经存在于哈希表中，则说明该链表是环形链表**</mark>，否则就将该节点加入哈希表中。重复这一过程，直到我们遍历完整个链表即可
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
