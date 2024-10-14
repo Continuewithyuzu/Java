@@ -46,4 +46,4 @@
 
 线程不安全： ArrayList不是线程安全的，如果多个线程同时对ArrayList进行操作，可能会导致数据不一致或抛出ConcurrentModificationException异常。&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

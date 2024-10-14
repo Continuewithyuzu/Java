@@ -27,7 +27,7 @@ public static void main(String[] args) {
 
 ### 常见操作
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 代码：
 

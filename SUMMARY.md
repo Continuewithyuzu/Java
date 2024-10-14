@@ -28,6 +28,7 @@
     * [215、数组中的第K个最大元素](hot-100/dui/215-shu-zu-zhong-de-dikge-zui-da-yuan-su.md)
     * [347、前K个高频元素](hot-100/dui/347-qiankge-gao-pin-yuan-su.md)
     * [295、数据流的中位数](hot-100/dui/295-shu-ju-liu-de-zhong-wei-shu.md)
+    * [155、最小栈](hot-100/dui/155-zui-xiao-zhan.md)
   * [栈和队列](hot-100/zhan-he-dui-lie/README.md)
     * [20、有效的括号](hot-100/zhan-he-dui-lie/20-you-xiao-de-kuo-hao.md)
   * [二叉树](hot-100/er-cha-shu.md)
