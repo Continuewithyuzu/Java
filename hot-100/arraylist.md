@@ -33,7 +33,7 @@ public static void main(String[] args) {
 
 ### 常见操作
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```java
 public static void main(String[] args) {

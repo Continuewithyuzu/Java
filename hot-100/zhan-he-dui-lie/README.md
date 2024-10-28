@@ -2,7 +2,7 @@
 
 队列是先进先出，栈是先进后出
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 栈Stack
 
@@ -12,9 +12,9 @@
 
 出栈：栈的删除操作叫做出栈。 **出数据在栈顶** 。
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 基本操作
 
@@ -68,7 +68,7 @@ public class StackExample {
 
 队列（Queue）是一种先进先出（FIFO）的数据结构，用于存储元素。队列在 java.util 包中有多种实现，如 LinkedList、ArrayDeque 和 PriorityQueue。只允许在一端进行插入数据操作，在另一端进行删除数据操作的特殊线性表，队列具有先进先出FIFO(First In First Out) 入队列：进行插入操作的一端称为队尾（Tail/Rear） 出队列：进行删除操作的一端称为队头（Head/Front）
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 基本操作 <a href="#f0-9f-92-bd2.-e5-9f-ba-e6-9c-ac-e6-93-8d-e4-bd-9c" id="f0-9f-92-bd2.-e5-9f-ba-e6-9c-ac-e6-93-8d-e4-bd-9c"></a>
 
