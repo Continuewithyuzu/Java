@@ -32,6 +32,7 @@
     * [155、最小栈](hot-100/zhan-he-dui-lie/155-zui-xiao-zhan.md)
     * [20、有效的括号](hot-100/zhan-he-dui-lie/20-you-xiao-de-kuo-hao.md)
     * [343、字符串解码](hot-100/zhan-he-dui-lie/343-zi-fu-chuan-jie-ma.md)
+    * [739、每日温度](hot-100/zhan-he-dui-lie/739-mei-ri-wen-du.md)
   * [二叉树](hot-100/er-cha-shu.md)
   * [数组](hot-100/shu-zu.md)
 * [算法知识](suan-fa-zhi-shi/README.md)
