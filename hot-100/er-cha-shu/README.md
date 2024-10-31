@@ -56,7 +56,7 @@ description: 说到二叉树，就不得不说递归，很多同学对递归都�
 
 ### 表示形式：孩子兄弟表示法
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>孩子兄弟表示法示意图</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>孩子兄弟表示法示意图</p></figcaption></figure>
 
 ```java
 class Node{
@@ -96,7 +96,7 @@ class Node{
 
 如果一棵二叉树只有度为0的结点和度为2的结点，并且度为0的结点在同一层上，则这棵二叉树为满二叉树。**换句话说，如果一颗二叉树的层数为k，且总结点的个数是2^k-1，那么就是满二叉树.**
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -104,7 +104,7 @@ class Node{
 
 在完全二叉树中，除了最底层节点可能没填满外，其余每层节点数都达到最大值，并且最下面一层的节点都集中在该层最左边的若干位置。若最底层为第 h 层（h从1开始），则该层包含 1\~ 2^(h-1) 个节点。它是一种效率很高的数据结构，完全二叉树是由满二叉树引出来的。对于深度为k，有n个结点的二叉树，当且仅当每一个结点都与深度为k的满二叉树中编号从0至n-1的结点一一对应时称之为完全二叉树，**满二叉树是一种特殊的完全二叉树。**
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 **优先级队列其实是一个堆，堆就是一棵完全二叉树，同时保证父子节点的顺序关系。**
 
@@ -118,7 +118,7 @@ class Node{
 * 若它的右子树不空，则右子树上所有结点的值均大于它的根结点的值；
 * 它的左、右子树也分别为二叉排序树
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -126,7 +126,7 @@ class Node{
 
 平衡二叉搜索树：又被称为AVL（Adelson-Velsky and Landis）树，且具有以下性质：它是一棵空树或它的左右两个子树的高度差的绝对值不超过1，并且左右两个子树都是一棵平衡二叉树。
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 ## 二叉树的存储方式 <a href="#er-cha-shu-de-cun-chu-fang-shi" id="er-cha-shu-de-cun-chu-fang-shi"></a>
 
@@ -138,11 +138,11 @@ class Node{
 
 #### 链式存储：
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 #### 顺序存储：
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 **如果父节点的数组下标是 i，那么它的左孩子就是 i \* 2 + 1，右孩子就是 i \* 2 + 2。**
 
@@ -168,7 +168,7 @@ class Node{
 
 在深度优先遍历中：有三个顺序，前中后序遍历，技巧：
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 广度优先遍历的实现一般使用队列来实现，这也是队列先进先出的特点所决定的，因为需要先进先出的结构，才能一层一层的来遍历二叉树
 
@@ -254,7 +254,7 @@ class Solution {
 }
 ```
 
-### 实际实现
+### 递归法实际应用：
 
 ```java
 // 前序遍历 -> 根 左子树 右子树
@@ -297,7 +297,7 @@ public void postOrder(TreeNode root) {
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -387,7 +387,7 @@ class Solution {
 
 示意图：
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ```java
 //层序遍历
@@ -478,7 +478,7 @@ public int getLeafNode(TreeNode root){
     }
 ```
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ```java
  public int getLevelNode(TreeNode root,int k){
@@ -546,7 +546,7 @@ public BTNode find(TreeNode root,int val){
 
 退出循环后检查队列中剩余数据是否还有非空数据, 如果存在非空数据说明不是完全二叉树
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ```java
 public boolean isCompleteTree(TreeNode root) {
