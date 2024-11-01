@@ -36,7 +36,7 @@
     * [84、柱状图中最大的矩形](hot-100/zhan-he-dui-lie/84-zhu-zhuang-tu-zhong-zui-da-de-ju-xing.md)
   * [二叉树](hot-100/er-cha-shu/README.md)
     * [94、二叉树的中序遍历](hot-100/er-cha-shu/94-er-cha-shu-de-zhong-xu-bian-li.md)
-    * [Page](hot-100/er-cha-shu/page.md)
+    * [104、求二叉树的最大深度](hot-100/er-cha-shu/104-qiu-er-cha-shu-de-zui-da-shen-du.md)
   * [数组](hot-100/shu-zu.md)
 * [算法知识](suan-fa-zhi-shi/README.md)
   * [哈希 Hash Set and Hash Map](suan-fa-zhi-shi/ha-xi-hash-set-and-hash-map.md)
