@@ -56,7 +56,7 @@ description: 说到二叉树，就不得不说递归，很多同学对递归都�
 
 ### 表示形式：孩子兄弟表示法
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>孩子兄弟表示法示意图</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>孩子兄弟表示法示意图</p></figcaption></figure>
 
 ```java
 class Node{
@@ -297,7 +297,7 @@ public void postOrder(TreeNode root) {
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
