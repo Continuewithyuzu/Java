@@ -82,6 +82,18 @@ public class StackExample {
 
 **注意**：Queue是个接口，在实例化时必须实例化LinkedList的对象，因为LinkedList实现了Queue接口。
 
+压入元素(添加)：add()、offer() 相同：未超出容量，从队尾压入元素，返回压入的那个元素。&#x20;
+
+区别：在超出容量时，<mark style="color:blue;">add()方法会对抛出异常，offer()返回false</mark>
+
+弹出元素(删除)：remove()、poll() 相同：容量大于0的时候，删除并返回队头被删除的那个元素。
+
+&#x20;区别：在容量为0的时候，<mark style="color:blue;">remove()会抛出异常，poll()返回false</mark>
+
+获取队头元素(不删除)：element()、peek() 相同：容量大于0的时候，都返回队头元素。但是不删除。&#x20;
+
+区别：容量为0的时候，<mark style="color:blue;">element()会抛出异常，peek()返回null</mark>
+
 #### 代码：
 
 ```java
