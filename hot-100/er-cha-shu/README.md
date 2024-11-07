@@ -56,7 +56,7 @@ description: 说到二叉树，就不得不说递归，很多同学对递归都�
 
 ### 表示形式：孩子兄弟表示法
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>孩子兄弟表示法示意图</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>孩子兄弟表示法示意图</p></figcaption></figure>
 
 ```java
 class Node{
@@ -297,7 +297,7 @@ public void postOrder(TreeNode root) {
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -612,4 +612,4 @@ public boolean isCompleteTree(TreeNode root) {
 * **对数组进行排序**：首先，确保数组是有序的，因为二叉搜索树的性质要求左子树的节点小于根节点，而右子树的节点大于根节点。若数组未排序，先对其排序。
 * **选择中间元素作为根节点**：递归地将中间元素作为根节点，以此保证树的平衡。将数组的中间元素选作根节点，可以让左半部分成为左子树，右半部分成为右子树。
 * **递归构建子树**：对左半部分数组和右半部分数组分别重复这个过程，继续选择中间元素作为子树的根节点，直到数组为空。
-* [例题](108.md)
+* [例题](108-jiang-you-xu-shu-zu-zhuan-huan-wei-er-cha-sou-suo-shu.md)
