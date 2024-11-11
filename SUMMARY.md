@@ -43,6 +43,8 @@
     * [102、二叉树的层序遍历](hot-100/er-cha-shu/102-er-cha-shu-de-ceng-xu-bian-li.md)
     * [108、将有序数组转换为二叉搜索树](hot-100/er-cha-shu/108-jiang-you-xu-shu-zu-zhuan-huan-wei-er-cha-sou-suo-shu.md)
     * [92、验证二叉搜索树](hot-100/er-cha-shu/92-yan-zheng-er-cha-sou-suo-shu.md)
+    * [230、二叉搜索树中第K小的元素](hot-100/er-cha-shu/230-er-cha-sou-suo-shu-zhong-dikxiao-de-yuan-su.md)
+    * [199、二叉树的右视图](hot-100/er-cha-shu/199-er-cha-shu-de-you-shi-tu.md)
   * [数组](hot-100/shu-zu.md)
 * [算法知识](suan-fa-zhi-shi/README.md)
   * [哈希 Hash Set and Hash Map](suan-fa-zhi-shi/ha-xi-hash-set-and-hash-map.md)
