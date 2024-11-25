@@ -10,7 +10,7 @@
 
 &#x20;在Java中，Java标准库中提供了`LinkedList`类，它是基于链表的一个实现，并且已经封装好了许多常用的链表操作。你不需要手动定义基本的链表操作函数，Java 的 `LinkedList` 类已经包含了以下常用的方法：
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **添加元素**：
   * `add(E e)`: 在链表末尾添加元素。
@@ -424,5 +424,5 @@ public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
 #### **注意事项**
 
-* **实际头节点：** 操作完成后，<mark style="color:blue;">**链表的实际头节点是**</mark><mark style="color:blue;">** **</mark><mark style="color:blue;">**`dummyHead.next`**</mark>，而不是 `dummyHead` 本身。（返回<mark style="color:blue;">**`dummyHead.next`**</mark>)
+* **实际头节点：** 操作完成后，<mark style="color:blue;">**链表的实际头节点是**</mark><mark style="color:blue;">**&#x20;**</mark><mark style="color:blue;">**`dummyHead.next`**</mark>，而不是 `dummyHead` 本身。（返回<mark style="color:blue;">**`dummyHead.next`**</mark>)
 * **空间开销：** 虚拟头节点会占用额外的空间，但相对于链表的整体，这个开销通常可以忽略不计。

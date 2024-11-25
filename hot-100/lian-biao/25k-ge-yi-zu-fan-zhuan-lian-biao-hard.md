@@ -26,7 +26,7 @@ icon: battery-exclamation
 
 反复移动指针 head 与 pre，对 head 所指向的子链表进行翻转，直到结尾，我们就得到了答案。下面我们该返回函数值了。
 
-有的同学可能发现这又是一件麻烦事：**链表翻转之后，链表的头节点发生了变化，那么应该返回哪个节点呢？**照理来说，前 k 个节点翻转之后，链表的头节点应该是第 k 个节点。那么要在遍历过程中记录第 k 个节点吗？但是如果链表里面没有 k 个节点，答案又还是原来的头节点。我们又多了一大堆循环和判断要写，太崩溃了！
+有的同学可能发现这又是一件麻烦事：**链表翻转之后，链表的头节点发生了变化，那么应该返回哪个节点呢？**&#x7167;理来说，前 k 个节点翻转之后，链表的头节点应该是第 k 个节点。那么要在遍历过程中记录第 k 个节点吗？但是如果链表里面没有 k 个节点，答案又还是原来的头节点。我们又多了一大堆循环和判断要写，太崩溃了！
 
 等等！还记得<mark style="background-color:blue;">**我们创建了节点 pre 吗？这个节点一开始被连接到了头节点的前面，而无论之后链表有没有翻转，它的 next 指针都会指向正确的头节点**</mark>。那么我们只要返回它的下一个节点就好了。至此，问题解决。
 
@@ -76,7 +76,7 @@ class Solution {
 
 这个思路属于比较好懂的
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -112,6 +112,6 @@ class Solution {
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 这个递归倒是可以理解：判断递归结束的条件是长度是否大于k，否则传入新节点继续反转

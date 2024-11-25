@@ -56,7 +56,7 @@ description: 说到二叉树，就不得不说递归，很多同学对递归都�
 
 ### 表示形式：孩子兄弟表示法
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>孩子兄弟表示法示意图</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>孩子兄弟表示法示意图</p></figcaption></figure>
 
 ```java
 class Node{
@@ -297,7 +297,7 @@ public void postOrder(TreeNode root) {
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -383,11 +383,11 @@ class Solution {
 
 ## 层序遍历
 
-采用非递归的方式：定义一个队列，先将根节点入队，**如果队列不为空，弹出一个队头元素并打印，接着再去看看它左树和右树的根节点是否为空，如果不会空都入队，**重复上述操作，当队列为空时，层序遍历结束。
+采用非递归的方式：定义一个队列，先将根节点入队，**如果队列不为空，弹出一个队头元素并打印，接着再去看看它左树和右树的根节点是否为空，如果不会空都入队，**&#x91CD;复上述操作，当队列为空时，层序遍历结束。
 
 示意图：
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```java
 //层序遍历
@@ -478,7 +478,7 @@ public int getLeafNode(TreeNode root){
     }
 ```
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```java
  public int getLevelNode(TreeNode root,int k){
@@ -546,7 +546,7 @@ public BTNode find(TreeNode root,int val){
 
 退出循环后检查队列中剩余数据是否还有非空数据, 如果存在非空数据说明不是完全二叉树
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```java
 public boolean isCompleteTree(TreeNode root) {
