@@ -8,7 +8,7 @@ description: >-
 
 ## 在 Java 中实现线程的方式有 2 种，一种是继承 Thread，一种是实现 Runnable 接口。
 
-​ 如果一个进程没有任何线程，我们成为单线程应用程序；如果一个进程有多个线程存在，我们成为多线程应用程序。进程执行时一定会有一个主线程(main 线程)存在，主线程有能力创建其他线程。多个线程抢占 CPU，导致程序的运行轨迹不确定。多线程的运行结果也不确定。
+​ 如果一个进程没有任何线程，我们称为单线程应用程序；如果一个进程有多个线程存在，我们成称为多线程应用程序。进程执行时一定会有一个主线程(main 线程)存在，主线程有能力创建其他线程。多个线程抢占 CPU，导致程序的运行轨迹不确定。多线程的运行结果也不确定。
 
 ### 2.1、继承Thread类 <a href="#id-21-ji-cheng-thread-lei" id="id-21-ji-cheng-thread-lei"></a>
 
@@ -1077,7 +1077,7 @@ MainThread500
 
 ### 2.2、实现 Runnable 接口 <a href="#id-22-shi-xian-runnable-jie-kou" id="id-22-shi-xian-runnable-jie-kou"></a>
 
-​ 采用`java.lang.Runnable`也是非常常见的一种，我们只需要重写run方法即可。
+​ 采用`java.lang.Runnable`也是非常常见的一种，_**我们只需要重写run方法即可**_。
 
 ​ 步骤如下：
 

@@ -74,4 +74,7 @@
 * [进阶](jin-jie/README.md)
   * [集合](jin-jie/ji-he.md)
   * [泛型](jin-jie/fan-xing.md)
-  * [线程](jin-jie/xian-cheng.md)
+  * [线程](jin-jie/xian-cheng/README.md)
+    * [Java语言中实现线程的两种方式](jin-jie/xian-cheng/java-yu-yan-zhong-shi-xian-xian-cheng-de-liang-zhong-fang-shi.md)
+    * [常用的线程方法](jin-jie/xian-cheng/chang-yong-de-xian-cheng-fang-fa.md)
+    * [线程安全问题](jin-jie/xian-cheng/xian-cheng-an-quan-wen-ti.md)

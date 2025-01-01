@@ -2,7 +2,7 @@
 
 我的思路，是判断节点然后递归，但是由于搜索二叉树的条件是：
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 我的代码有一部分的测试样例没有通过
 
