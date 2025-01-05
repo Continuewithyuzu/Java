@@ -165,7 +165,7 @@ public class BufferedFileReaderExample {
 *   **示例**：
 
     ```java
-    java复制代码FileWriter fw = new FileWriter("example.txt");
+    FileWriter fw = new FileWriter("example.txt");
     fw.write(97); // 写入字符 'a' 的 Unicode 值
     fw.close();
     ```
@@ -176,7 +176,7 @@ public class BufferedFileReaderExample {
 *   **示例**：
 
     ```java
-    java复制代码FileWriter fw = new FileWriter("example.txt");
+    FileWriter fw = new FileWriter("example.txt");
     char[] chars = {'H', 'e', 'l', 'l', 'o'};
     fw.write(chars);
     fw.close();
@@ -188,7 +188,7 @@ public class BufferedFileReaderExample {
 *   **示例**：
 
     ```java
-    java复制代码FileWriter fw = new FileWriter("example.txt");
+    FileWriter fw = new FileWriter("example.txt");
     char[] chars = {'J', 'a', 'v', 'a', '!', '!', '!'};
     fw.write(chars, 0, 4); // 写入 "Java"
     fw.close();
@@ -200,7 +200,7 @@ public class BufferedFileReaderExample {
 *   **示例**：
 
     ```java
-    java复制代码FileWriter fw = new FileWriter("example.txt");
+    FileWriter fw = new FileWriter("example.txt");
     fw.write("Hello, FileWriter!");
     fw.close();
     ```
@@ -211,7 +211,7 @@ public class BufferedFileReaderExample {
 *   **示例**：
 
     ```java
-    java复制代码FileWriter fw = new FileWriter("example.txt");
+    FileWriter fw = new FileWriter("example.txt");
     fw.write("Programming in Java", 0, 11); // 写入 "Programming"
     fw.close();
     ```
@@ -223,7 +223,7 @@ public class BufferedFileReaderExample {
 *   **示例**：
 
     ```java
-    java复制代码FileWriter fw = new FileWriter("example.txt");
+    FileWriter fw = new FileWriter("example.txt");
     fw.write("Hello, flush!");
     fw.flush();
     fw.close();
@@ -235,7 +235,7 @@ public class BufferedFileReaderExample {
 *   **示例**：
 
     ```java
-    java复制代码FileWriter fw = new FileWriter("example.txt");
+    FileWriter fw = new FileWriter("example.txt");
     fw.write("Closing the stream!");
     fw.close();
     ```
@@ -265,7 +265,7 @@ public class FileWriterExample {
 `BufferedWriter` 可以提高写入效率，以下是示例：
 
 ```java
-java复制代码import java.io.BufferedWriter;
+import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 

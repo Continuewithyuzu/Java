@@ -29,7 +29,7 @@ description: >-
    *   示例：
 
        ```java
-       java复制代码BufferedReader br = new BufferedReader(new FileReader("example.txt"));
+       BufferedReader br = new BufferedReader(new FileReader("example.txt"));
        ```
 2. **`BufferedReader(Reader in, int sz)`**
    * 接受一个 `Reader` 对象作为输入流，并指定缓冲区的大小（以字符为单位）。
@@ -37,7 +37,7 @@ description: >-
    *   示例：
 
        ```java
-       java复制代码BufferedReader br = new BufferedReader(new FileReader("example.txt"), 1024);
+       BufferedReader br = new BufferedReader(new FileReader("example.txt"), 1024);
        ```
 
 ***
@@ -51,7 +51,7 @@ description: >-
 *   **示例**：
 
     ```java
-    java复制代码BufferedReader br = new BufferedReader(new FileReader("example.txt"));
+    BufferedReader br = new BufferedReader(new FileReader("example.txt"));
     String line;
     while ((line = br.readLine()) != null) {
         System.out.println(line);
@@ -65,7 +65,7 @@ description: >-
 *   **示例**：
 
     ```java
-    java复制代码BufferedReader br = new BufferedReader(new FileReader("example.txt"));
+    BufferedReader br = new BufferedReader(new FileReader("example.txt"));
     int charValue;
     while ((charValue = br.read()) != -1) {
         System.out.print((char) charValue);
@@ -80,7 +80,7 @@ description: >-
 *   **示例**：
 
     ```java
-    java复制代码BufferedReader br = new BufferedReader(new FileReader("example.txt"));
+    BufferedReader br = new BufferedReader(new FileReader("example.txt"));
     char[] buffer = new char[1024];
     int charsRead;
     while ((charsRead = br.read(buffer, 0, buffer.length)) != -1) {
@@ -96,7 +96,7 @@ description: >-
 *   **示例**：
 
     ```java
-    java复制代码BufferedReader br = new BufferedReader(new FileReader("example.txt"));
+    BufferedReader br = new BufferedReader(new FileReader("example.txt"));
     // 使用流进行读取操作
     br.close(); // 关闭流
     ```
@@ -107,7 +107,7 @@ description: >-
 *   **示例**：
 
     ```java
-    java复制代码BufferedReader br = new BufferedReader(new FileReader("example.txt"));
+    BufferedReader br = new BufferedReader(new FileReader("example.txt"));
     if (br.ready()) {
         System.out.println("Stream is ready for reading.");
     }
