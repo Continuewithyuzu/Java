@@ -78,3 +78,8 @@
     * [Java语言中实现线程的两种方式](jin-jie/xian-cheng/java-yu-yan-zhong-shi-xian-xian-cheng-de-liang-zhong-fang-shi.md)
     * [常用的线程方法](jin-jie/xian-cheng/chang-yong-de-xian-cheng-fang-fa.md)
     * [线程安全问题](jin-jie/xian-cheng/xian-cheng-an-quan-wen-ti.md)
+  * [路径注意问题](jin-jie/lu-jing-zhu-yi-wen-ti.md)
+  * [File类](jin-jie/file-lei.md)
+  * [FilenameFilter接口——文件名过滤器](jin-jie/filenamefilter-jie-kou-wen-jian-ming-guolqi.md)
+  * [FileReader类 和 FileWriter类](jin-jie/filereader-lei-he-filewriter-lei.md)
+  * [BufferedReader类](jin-jie/bufferedreader-lei.md)
