@@ -12,4 +12,4 @@ File，即文件、文件夹，一个**File对象表示**了磁盘上的某个**
 
 3.**`File(File parent, String child)`**：与前两种构造方式略有差异：将文件路径劈开后，又先将父路径封装成了File类型，然后再分别将“File类型的父路径” 和 “String类型的子路径”传上去。
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
