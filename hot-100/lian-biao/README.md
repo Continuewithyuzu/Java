@@ -10,7 +10,7 @@
 
 &#x20;在Java中，Java标准库中提供了`LinkedList`类，它是基于链表的一个实现，并且已经封装好了许多常用的链表操作。你不需要手动定义基本的链表操作函数，Java 的 `LinkedList` 类已经包含了以下常用的方法：
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **添加元素**：
   * `add(E e)`: 在链表末尾添加元素。
@@ -186,7 +186,7 @@ public static void main(String[] args) {
 
 节点（Node）是由一个<mark style="color:blue;">**需要储存的对象及对下一个节点的引用**</mark>组成的。也就是说，节点拥有两个成员：<mark style="color:blue;">储存的对象、对下一个节点的引用</mark>。&#x20;
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## 单向链表的实现
 

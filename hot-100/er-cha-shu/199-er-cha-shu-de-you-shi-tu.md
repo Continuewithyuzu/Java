@@ -29,7 +29,7 @@ class Solution {
 
 在遇到这个测试样例的时候没有通过：
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 解决办法是加一个深度depth参数，统计该深度是否初次遇到
 

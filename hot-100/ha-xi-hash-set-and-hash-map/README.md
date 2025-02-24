@@ -27,7 +27,7 @@ hashCode()方法返回对象的哈希码值（哈希码），是一个int类型�
 
 ## Hash 碰撞（也叫Hash冲突） 这块晚点在学
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -195,7 +195,7 @@ public class HashMapExample {
 
 ### 2、基本操作
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>基本操作</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p>基本操作</p></figcaption></figure>
 
 示例代码
 

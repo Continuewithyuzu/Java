@@ -2,7 +2,7 @@
 
 ## 获取当前线程对象、获取线程对象名字、修改线程对象名字
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 当线程没有设置名字的时候，默认的名字是什么？
 
@@ -14,7 +14,7 @@
 
 ## 关于线程的sleep方法
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 静态方法：Thread.sleep(1000);&#x20;
 * 参数是毫秒
@@ -43,7 +43,7 @@ public class ThreadTest06 {
 
 ## 中断睡眠
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```java
 public class ThreadTest08 {
@@ -82,7 +82,7 @@ class MyRunnable2 implements Runnable {
 
 ### 优先级
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 最低优先级1
 * 默认优先级是5
@@ -92,7 +92,7 @@ class MyRunnable2 implements Runnable {
 
 ### 让位方法
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 yield()方法不是阻塞方法。让当前线程让位，让给其它线程使用。
 
@@ -102,4 +102,4 @@ yield()方法的执行会让当前线程从“**运行状态**”回到“**就�
 
 ### 联合线程
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
