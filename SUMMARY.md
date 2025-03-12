@@ -90,3 +90,8 @@
     * [FileReader类 和 FileWriter类](jin-jie/io-liu-wen-jian-cao-zuo/filereader-lei-he-filewriter-lei.md)
     * [BufferedReader类](jin-jie/io-liu-wen-jian-cao-zuo/bufferedreader-lei.md)
   * [Page](jin-jie/page.md)
+* [Lanqiao Cup](lanqiao-cup/README.md)
+  * [15届](lanqiao-cup/15-jie/README.md)
+    * [1、报数游戏](lanqiao-cup/15-jie/1-bao-shu-you-xi.md)
+* [String](string/README.md)
+  * [3、无重复字符的最长字串](string/3-wu-chong-fu-zi-fu-de-zui-chang-zi-chuan.md)

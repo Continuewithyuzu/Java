@@ -2,7 +2,7 @@
 
 ## 获取当前线程对象、获取线程对象名字、修改线程对象名字
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 当线程没有设置名字的时候，默认的名字是什么？
 
@@ -14,7 +14,7 @@
 
 ## 关于线程的sleep方法
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 静态方法：Thread.sleep(1000);&#x20;
 * 参数是毫秒
