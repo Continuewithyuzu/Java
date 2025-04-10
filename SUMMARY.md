@@ -64,6 +64,8 @@
   * [字符串类](suan-fa-zhi-shi/zi-fu-chuan-lei.md)
   * [二分](suan-fa-zhi-shi/er-fen.md)
   * [dp动态规划](suan-fa-zhi-shi/dp-dong-tai-gui-hua.md)
+  * [进制转换](suan-fa-zhi-shi/jin-zhi-zhuan-huan.md)
+  * [数据范围](suan-fa-zhi-shi/shu-ju-fan-wei.md)
 * [高频SQL](gao-pin-sql/README.md)
   * [DQL](gao-pin-sql/dql/README.md)
     * [1757. 可回收且低脂的产品](gao-pin-sql/dql/1757.-ke-hui-shou-qie-di-zhi-de-chan-pin.md)
