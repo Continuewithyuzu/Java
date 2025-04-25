@@ -31,3 +31,8 @@ public class BaseConversion {
     }
 }
 ```
+
+```java
+String str = Integer.toString(x, y);
+//x是十进制，y是要转换的进制，返回值是字符串
+```

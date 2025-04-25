@@ -57,7 +57,7 @@ description: >-
 
 如果有节点不能到达其他节点，则为非连通图，如图：
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 强连通图 <a href="#qiang-lian-tong-tu" id="qiang-lian-tong-tu"></a>
 
@@ -216,7 +216,7 @@ dfs 和 bfs 一种搜索算法，可以在不同的数据结构上进行搜索�
 
 那么dfs搜索的第一条路径是这样的： （假设第一次延默认方向，就找到了节点6），图二
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 此时我们找到了节点6，（遇到黄河了，是不是应该回头了），那么应该再去搜索其他方向了。 如图三：
 

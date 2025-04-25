@@ -38,4 +38,4 @@ public class Main {
 
 > 在Java中，整数的默认数据类型是int。当我们将一个整数赋值给任何类型变量时，这个整数默认是int型。 如果这个数字小于int的最大值，可以直接给long赋值，因为int的取值范围小于long型，可以自动转换。 如果这个数字大于int的最大值，此时不能自动转换，我们就需要在数字后面加上L来进行强转，否则会报错。&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
