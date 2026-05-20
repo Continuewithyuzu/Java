@@ -10,7 +10,40 @@ key:元素&#x20;
 
 
 
-我的解法：两个For循环，时间复杂度O(n)2
+## 为什么不是value代表元素，key代表下标？
+
+`containsValue()` 方法，但它和 `containsKey()` 在性能和实现上差别很大，不能直接替代。原因如下：
+
+***
+
+#### 1. `containsKey()` 的性能
+
+* `containsKey(key)` 在哈希表（`HashMap`）中是 **O(1)** 平均时间复杂度。
+* 原因：哈希表是通过 key 的哈希值直接定位到桶（bucket）来查找的，不需要遍历整个表。
+* 这是哈希表的设计目的：**快速通过 key 查找对应的 value**。
+
+***
+
+#### 2. `containsValue()` 的性能
+
+* `containsValue(value)` **不是通过哈希直接查找**。
+* Java 实现中，它会 **遍历整个哈希表的所有 value** 来查找是否存在。
+* 时间复杂度是 **O(n)**，和遍历数组差不多，没有速度优势。
+
+***
+
+#### 3. 对“两数之和”问题的影响
+
+* 如果把索引作为 key，数组值作为 value：
+  * 查找补数就要用 `map.containsValue(complement)`。
+  * 这个操作是 O(n)，每次循环都要遍历整个表 → 总时间复杂度 O(n²)。
+* 如果把数组值作为 key，索引作为 value：
+  * 查找补数用 `map.containsKey(complement)` → O(1)。
+  * 遍历整个数组总复杂度是 O(n)。
+
+
+
+## 我的解法：两个For循环，时间复杂度O(n)2
 
 优点是简单易懂，但是时间复杂度高，效率低
 
@@ -32,7 +65,7 @@ class Solution {
 
 
 
-更优雅的解法：
+## 更优雅的解法：
 
 1、Hash Map  <mark style="color:blue;">键值对</mark>
 

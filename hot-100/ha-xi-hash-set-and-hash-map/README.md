@@ -264,3 +264,45 @@ public class HashSetExample {
 Java中的HashSet是一个<mark style="color:blue;">**高效无序且不允许重复元素**</mark>的集合类，基于HashMap实现。
 
 它的核心应用场景包括<mark style="color:blue;">**数据去重、集合运算、缓存实现、快速查找成员、统计唯一元素、辅助高级数据结构及游戏开发中的对象管理**</mark>等。 HashSet利用哈希机制提供快速的插入、删除和查找功能，特别适合需要高效率集合操作的场景。 HashSet是Java集合框架中一个非常实用的类，特别适用于需要快速插入、删除和查找，且不需要维护元素插入顺序的场景。理解其基于HashMap的实现以及如何利用哈希机制来管理元素，对于高效使用HashSet至关重要。
+
+
+
+### map.containsKey VS map.containsValue
+
+`containsValue()` 方法和 `containsKey()` 在性能和实现上差别很大，不能直接替代。原因如下：
+
+***
+
+#### 1. `containsKey()` 的性能
+
+* `containsKey(key)` 在哈希表（`HashMap`）中是 **O(1)** 平均时间复杂度。
+* 原因：哈希表是通过 key 的哈希值直接定位到桶（bucket）来查找的，不需要遍历整个表。
+* 这是哈希表的设计目的：**快速通过 key 查找对应的 value**。
+
+***
+
+#### 2. `containsValue()` 的性能
+
+* `containsValue(value)` **不是通过哈希直接查找**。
+* Java 实现中，它会 **遍历整个哈希表的所有 value** 来查找是否存在。
+* 时间复杂度是 **O(n)**，和遍历数组差不多，没有速度优势。
+
+***
+
+#### 3. 对“两数之和”问题的影响
+
+* 如果把索引作为 key，数组值作为 value：
+  * 查找补数就要用 `map.containsValue(complement)`。
+  * 这个操作是 O(n)，每次循环都要遍历整个表 → 总时间复杂度 O(n²)。
+* 如果把数组值作为 key，索引作为 value：
+  * 查找补数用 `map.containsKey(complement)` → O(1)。
+  * 遍历整个数组总复杂度是 O(n)。
+
+***
+
+#### ✅ 总结
+
+* **为什么 key 放数组值，value 放索引**：
+  1. 能用 O(1) 查找补数。
+  2. 找到补数后能直接返回索引。
+* **不能用 `containsValue()`** 替代 `containsKey()`，因为它会退化成 O(n) 遍历。
