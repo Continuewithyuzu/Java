@@ -37,7 +37,7 @@ class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
-        if(nums.length < 3) return res;
+        if(nums.length < 3 || nums[0] > 0) return res;
         int i = 0;
         for( i = 0 ; i < nums.length-2 ; i++){
             if(i > 0 && nums[i] == nums[i-1]) continue; // 去重
@@ -68,10 +68,5 @@ class Solution {
 }
 ```
 
-这里不知道为什么不能加上`nums[0] > 0` 这个条件，可能是array排序的问题
+<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
-这个问题留着以后看看
-
-```java
-if(nums.length < 3 || nums[0] > 0) return res;
-```
